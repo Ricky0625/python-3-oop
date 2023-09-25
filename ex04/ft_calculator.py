@@ -10,6 +10,7 @@ class calculator:
 
     @staticmethod
     def add_vec(V1: list[float], V2: list[float]) -> None:
+        """add two vector"""
         res = [float(a + b) for a, b in zip(V1, V2)]
         print(f"Add Vector is: {res}")
 
