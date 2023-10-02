@@ -14,9 +14,11 @@ class Baratheon(Character):
         self.hairs = "dark"
 
     def __repr__(self) -> str:
+        """repr of Baratheon"""
         return f"Vector: ('{self.family_name}', '{self.eyes}', '{self.hairs}')"
 
     def __str__(self) -> str:
+        """str of Baratheon"""
         return f"Vector: ('{self.family_name}', '{self.eyes}', '{self.hairs}')"
 
 
@@ -33,10 +35,13 @@ class Lannister(Character):
         self.hairs = "light"
 
     def __repr__(self) -> str:
+        """repr of Lannister"""
         return f"Vector: ('{self.family_name}', '{self.eyes}', '{self.hairs}')"
 
     def __str__(self) -> str:
+        """str of Lannister"""
         return f"Vector: ('{self.family_name}', '{self.eyes}', '{self.hairs}')"
 
     def create_lannister(first_name: str, is_alive: bool = True):
+        """create a lannister"""
         return Lannister(first_name, is_alive)
