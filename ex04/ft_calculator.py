@@ -1,6 +1,7 @@
 class calculator:
 
-    """calculator"""
+    """calculator, a static class. still can instantiate
+    but not necessary"""
 
     @staticmethod
     def dotproduct(V1: list[float], V2: list[float]) -> None:
